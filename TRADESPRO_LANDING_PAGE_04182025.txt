@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRADESPRO | A Trading & Investments Firm</title>
+  <style>
+    body {
+      width: 100vw;
+      overflow-x: hidden;
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f6f6f3;
+      color: #1a1a1a;
+    }
+
+    main {
+      width: 100%;
+    }
+    header {
+      background: linear-gradient(to right, #16222A, #3A6073);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 100px;
+      margin-bottom: 0.5rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 1.5rem;
+      color: #3a6073;
+      margin-bottom: 0.75rem;
+    }
+    section p, section li {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #333;
+    }
+    .content-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .feature-box {
+      width: 260px;
+      padding: 1rem;
+      background-color: #e6eff7;
+      border-radius: 6px;
+      border: 1px solid #ccd6e0;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+    }
+    .feature-box h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #3a6073;
+    }
+    .intake-form {
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .intake-form input,
+    .intake-form textarea,
+    .intake-form button {
+      padding: 0.6rem;
+      font-size: 0.95rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .intake-form button {
+      background-color: #3A6073;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .intake-form button:hover {
+      background-color: #2b4a5a;
+    }
+    footer {
+      background-color: #16222A;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .footer-grid {
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+    .footer-grid > div {
+      min-width: 200px;
+    }
+    .footer-grid h3 {
+      font-size: 1rem;
+      color: #a5c9f0;
+      margin-bottom: 0.5rem;
+    }
+    .footer-grid a {
+      color: #a5c9f0;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .footer-grid a:hover {
+      text-decoration: underline;
+    }
+    footer small {
+      color: #aaa;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  
+  <main style="width: 100%; margin: 0 auto;">
+    <header>
+      <img src="FINAL-V1.png" alt="TradesPro Logo">
+      <h1>TRADESPRO</h1>
+      <p>A Trading & Investments Firm</p>
+    </header>
+
+    <section>
+      <h2>Welcome to Your Edge in the Market</h2>
+      <p style="max-width: 600px; margin: 0 auto;">
+        TRADESPRO empowers retail and professional traders with institutional-grade strategies, custom algorithms, and personalized investment analysis meant to outperform the market.
+      </p>
+    </section>
+
+    <section>
+      <h2>Why TRADESPRO?</h2>
+      <p style="max-width: 600px; margin: 0 auto;">
+        TRADESPRO is built by traders, for traders. Our approach combines deep technical expertise with real-time market execution. Whether you're a retail investor looking for clarity, or a fund seeking edge in execution, TRADESPRO delivers results through data-driven insight, robust trend forecasting tools, and disciplined risk management. We don’t chase moves — we forecast them.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <div style="max-width: 720px; margin: 0 auto; text-align: center;">
+        <ul style="list-style-type: disc; display: inline-block; text-align: left; padding-left: 1.5rem;">
+          <li>One-time trade structuring: $500+ (averages around $3,800, varies by complexity)</li>
+          <li>Strategy review or education: $175–$250/hour</li>
+          <li>Ongoing advisory relationships: custom quoted</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Our Approach</h2>
+      <div class="content-grid">
+        <div class="feature-box">
+          <h3>Proprietary Tools</h3>
+          <p>Access exclusive indicators and data models engineered for precision trading.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Client-Focused</h3>
+          <p>Customized insights tailored to your goals — whether you trade daily or invest long-term.</p>
+        </div>
+        <div class="feature-box">
+          <h3>Advisory-Ready</h3>
+          <p>Coming soon: Registered investment advisory services for individuals and funds.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Request a Consultation</h2>
+      <form class="intake-form" action="#" method="post">
+        <input type="text" name="name" placeholder="Your Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <textarea name="message" placeholder="Tell us about your trading goals..." rows="4" required></textarea>
+        <button type="submit">Submit Inquiry</button>
+      </form>
+      <p style="margin-top: 1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        We never sell your data. We don’t spam. We deliver clarity — not clutter.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact Information</h2>
+      <p>
+        Phone: <a href="tel:9723385294" style="color: #3A6073; text-decoration: none;">972-338-5294</a><br>
+        Meeting by appointment only<br>
+        <a href="https://www.google.com/maps/place/15305+Dallas+Pkwy+%231200,+Addison,+TX+75001" target="_blank" style="color: #3A6073; text-decoration: none;">
+          15305 Dallas Pkwy, Suite 1200, Addison, TX 75001
+        </a>
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.418042827626!2d-96.82746778401408!3d32.957755180923074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c22b8b6066e15%3A0xc6f7f70c19bfa849!2s15305%20Dallas%20Pkwy%20%231200%2C%20Addison%2C%20TX%2075001!5e0!3m2!1sen!2sus!4v1713463514580!5m2!1sen!2sus"
+        width="100%" height="300" style="border:0; max-width: 600px; margin: 0 auto; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <h3>Key Client Documents</h3>
+          <ul>
+            <li><a href="docs/Form_ADV_Part2.pdf" target="_blank">Form ADV Part 2 Brochure</a></li>
+            <li><a href="docs/Client_Advisory_Agreement.pdf" target="_blank">Client Advisory Agreement</a></li>
+            <li><a href="docs/Privacy_Policy.pdf" target="_blank">Privacy Policy</a></li>
+            <li><a href="docs/Code_of_Ethics.pdf" target="_blank">Code of Ethics</a></li>
+            <li><a href="docs/Business_Continuity_Plan.pdf" target="_blank">Business Continuity Plan</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Regulatory & Educational Links</h3>
+          <ul>
+            <li><a href="https://adviserinfo.sec.gov" target="_blank">SEC Adviser Search</a></li>
+            <li><a href="https://www.investor.gov" target="_blank">Investor.gov</a></li>
+            <li><a href="https://www.finra.org" target="_blank">FINRA.org</a></li>
+            <li><a href="https://brokercheck.finra.org" target="_blank">FINRA BrokerCheck</a></li>
+          </ul>
+        </div>
+      </div>
+      <p>&copy; 2025 TRADESPRO LLC</p>
+      <small>Website preview for demo purposes only</small>
+    </footer>
+  </main>
+</body>
+</html>
