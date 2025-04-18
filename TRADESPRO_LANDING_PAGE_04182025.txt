@@ -212,7 +212,10 @@
         <div>
           <h3>Key Client Documents</h3>
           <ul>
-            <li><a href="docs/Form_ADV_Part2.pdf" target="_blank">Form ADV Part 2 Brochure</a></li>
+            <li><a href="https://github.com/bobbyhudak/tradespro-website/raw/main/docs/Form_ADV_Part2A.pdf" target="_blank">Form ADV Part 2A</a></li>
+<!-- This is a single-line comment
+<li><a href="docs/Form_ADV_Part2.pdf" target="_blank">Form ADV Part 2 Brochure</a></li>
+ -->
             <li><a href="docs/Client_Advisory_Agreement.pdf" target="_blank">Client Advisory Agreement</a></li>
             <li><a href="docs/Privacy_Policy.pdf" target="_blank">Privacy Policy</a></li>
             <li><a href="docs/Code_of_Ethics.pdf" target="_blank">Code of Ethics</a></li>
